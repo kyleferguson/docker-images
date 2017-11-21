@@ -1,4 +1,4 @@
-FROM php:7.2-fpm-alpine
+FROM php:7.2-rc-fpm-alpine
 
 ENV S6_OVERLAY_VERSION=v1.19.1.1
 ENV PHPREDIS_VERSION 3.1.2
